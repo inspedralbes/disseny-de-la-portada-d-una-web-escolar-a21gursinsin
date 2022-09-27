@@ -12,8 +12,46 @@
     font-family: 'Abyssinica SIL', serif;
   }
   
-  /* Layout */
+  .custom-btn {
+    width: 80%;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-decoration: none;
+    margin-top: 2%;
+  }
   
+  /* 1 */
+  .btn-1 {
+    background: hsl(204, 77%, 40%);
+    background: linear-gradient(0deg, rgb(34, 108, 177) 0%, rgb(83, 174, 235) 100%);
+    border: none;
+  }
+  .btn-1:hover {
+    background: hsl(204, 77%, 40%);
+    background: linear-gradient(0deg, rgb(52, 52, 53) 0%, rgb(115, 176, 236) 100%);
+  }
+  /* Layout */
+  header img{
+    position: absolute;
+    margin-left: 5%;
+  }
+  header h1{
+    text-align: right;
+    margin-right: 10px;
+  }
   section {
     float: left;
     width: 50%;
