@@ -44,6 +44,9 @@
     background: linear-gradient(0deg, rgb(52, 52, 53) 0%, rgb(115, 176, 236) 100%);
   }
   /* Layout */
+  ul {
+    list-style: none;
+  }
   header img{
     position: absolute;
     margin-left: 5%;
